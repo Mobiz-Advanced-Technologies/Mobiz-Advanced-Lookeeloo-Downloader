@@ -1,0 +1,19 @@
+{
+  "name": "mobiz-advanced-lookeeloo-downloader",
+  "version": "1.0.0",
+  "description": "Download lookeeloo videos for FREE!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "pkg index.js --out-path dist/ --targets node18-win-x64"
+  },
+  "author": "Mobiz-Advanced-Technologies",
+  "license": "MIT",
+  "dependencies": {
+    "node-file-dialog": "^1.0.3",
+    "nodejs-file-downloader": "^4.12.1",
+    "pkg": "^5.8.1",
+    "puppeteer": "^21.6.0"
+  }
+}
